@@ -17,7 +17,6 @@ import javax.swing.Timer;
 
 import model.Loading;
 import model.Player;
-import model.entity.character.Character;
 
 public class NewbieScreenView extends JPanel {
 

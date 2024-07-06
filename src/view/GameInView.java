@@ -9,6 +9,8 @@ import javax.swing.JButton;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.CardLayout;
 import java.awt.Color;
 
@@ -57,6 +59,18 @@ public class GameInView extends JPanel{
 //		JLabel lblNewLabel = new JLabel("New label");
 //		lblNewLabel.setBounds(125, 74, 225, 330);
 //		add(lblNewLabel);
+		
+		JButton backButton = new JButton("<");
+		backButton.setBounds(598, 399, 50, 32);
+		add(backButton);
+		
+		backButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				cardLayout.show(cardPanel, "mainMenu");
+			}
+		});
 		
 		add(mainLabel);
 	}

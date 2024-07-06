@@ -34,6 +34,13 @@ public class ChooseCardNewBieView extends JPanel {
         add(Migami);
         
         JButton lilyButton = new JButton("LiLy");
+        lilyButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				
+			}
+		});
         lilyButton.setFont(new Font("Tahoma", Font.PLAIN, 19));
         lilyButton.setBounds(91, 329, 107, 30);
         add(lilyButton);

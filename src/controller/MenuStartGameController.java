@@ -7,7 +7,6 @@ import javax.swing.JPanel;
 
 import model.Loading;
 import model.Player;
-import model.entity.character.Character;
 import view.GameInView;
 import view.MenuStartGame;
 import view.NewbieScreenView;

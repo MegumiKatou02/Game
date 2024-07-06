@@ -6,7 +6,7 @@ public class LiLy extends Character {
 	public LiLy() {
 		super();
 		this.name = "LiLy";
-		this.HP = 1080;
+		this.HP = 1108;
 		this.rangeDamage = new Pair<Double, Double>(30.0, 60.0);
 		this.speedAttack = 1;
 		this.lifeSteal = 0.0;

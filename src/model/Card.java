@@ -20,7 +20,6 @@ public class Card extends JLabel{
 	
 	private static final long serialVersionUID = 1L;
 	private String nameCharcter;
-	private int x, y, width, height;
 	private Character character;
 	
 	public Card(String nameCharacter) {

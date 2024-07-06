@@ -4,6 +4,8 @@ import java.awt.BorderLayout;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+
 import java.awt.Toolkit;
 
 public class GameMainView extends JFrame {
@@ -23,7 +25,7 @@ public class GameMainView extends JFrame {
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
         setContentPane(contentPane);
-        MenuStartGame menu = new MenuStartGame(); // jPanel
+        MenuStartGame menu = new MenuStartGame(); // JPanel
         contentPane.add(menu, BorderLayout.CENTER); // Thêm vào giữa BorderLayout
     }
 }
