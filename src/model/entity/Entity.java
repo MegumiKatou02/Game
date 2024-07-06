@@ -16,6 +16,14 @@ public abstract class Entity {
 	protected double lifeSteal;
 	protected Weapon weapon;
 	protected Armor armor;
+	protected double level;
+	
+	public Entity() {
+		this.level = 1;
+		this.name = "";
+		weapon = null;
+		armor = null;
+	}
 	
 	public String getName() {
 		return name;
@@ -60,6 +68,14 @@ public abstract class Entity {
 		this.armor = armor;
 	}
 	
+	public double getLevel() {
+		return level;
+	}
+
+	public void setLevel(double level) {
+		this.level = level;
+	}
+
 	@Override
     public String toString() {
         return "Entity{" +
